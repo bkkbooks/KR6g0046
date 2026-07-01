@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6g0046/p/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛遺教經論疏節要
+  edition:
+    short: p
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/P/P174/P174n1590.xml
+    old_id: P174n1590
+hash: sha256:5cefb79b8d72dd249d7ddb37b5ac45a5f7b06bcd7b7b20264afc4fd1c8e13e71

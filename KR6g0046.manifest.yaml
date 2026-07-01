@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6g0046/v1
+canonical_location: https://kanripo.org/bkk/KR6g0046/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛遺教經論疏節要
+  identifiers:
+    alt_id:
+    - P174n1590
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/P/P174/P174n1590.xml
+    old_id: P174n1590
+  edition:
+    short: bkk
+editions:
+- short: 北藏
+  label: 北藏
+  source_xml_id: wit.orig
+- short: P
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0046_000.yaml, hash: 'sha256:5cefb79b8d72dd249d7ddb37b5ac45a5f7b06bcd7b7b20264afc4fd1c8e13e71'}
+  - {seq: 1, filename: KR6g0046_001.yaml, hash: 'sha256:940a2f31f7d7e22761ec0eb10c7a2b3ed87e9cbf88c723d5730b26b5db947d42'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6g0046_001.markers.yaml, hash: 'sha256:16ef4853c10c9b7568ebbc59860f5d02a3c6d391f543e6834f756a9c5beaab75'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0046_P_001-juan-start
+    span:
+    - body
+    - 0
+    - 12622
+  label: 佛遺教經論䟽節要并序　　　　　　跡十
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6g0046_P_001-mulu-1
+    span:
+    - body
+    - 8
+    - 8
+  label: 序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6g0046_P_001-mulu-2
+    span:
+    - body
+    - 288
+    - 288
+  label: 節要
+  type: mulu
+  level: 1
+hash: sha256:4190462b0edd1cbccca0dde27edd085d99ed4125ab30edc6ed7eeab0e0b08bba
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
